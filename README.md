@@ -1,5 +1,5 @@
 ```diff 
-- [ DEAD REPO AND NO MORE UPDATE ]
+- [ Working on 20.10.2021 YASH ]
 ```
 [![SlamDevs](https://telegra.ph/file/143032e96542e7534f073.jpg)](https://t.me/SlamDevs)
 
