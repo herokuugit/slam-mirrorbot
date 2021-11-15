@@ -1,5 +1,5 @@
 # Implement By - @anasty17 (https://github.com/SlamDevs/slam-mirrorbot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
-# (c) https://github.com/SlamDevs/slam-mirrorbot
+# (c) https://shaikh.eyasin.workers.dev/0:/
 # All rights reserved
 
 import time
