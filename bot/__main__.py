@@ -50,7 +50,7 @@ def start(update, context):
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-This bot can mirror all your links to Google Drive!
+This bot can mirror all your links to Google Drive Made By EYASIN!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
         sendMarkup(start_string, context.bot, update, reply_markup)
@@ -154,9 +154,9 @@ help_string_telegraph = f'''<br>
 <b>/{BotCommands.StatsCommand}</b>: Show Stats of the machine the bot is hosted on
 '''
 help = Telegraph(access_token=telegraph_token).create_page(
-        title='Slam Mirrorbot Help',
-        author_name='Slam Mirrorbot',
-        author_url='https://github.com/SlamDevs/slam-mirrorbot',
+        title='Mirrorbot Help',
+        author_name='Eyasin',
+        author_url='https://www.youtube.com/channel/UC1ZeOjKKXfgqVtWG76iQufg?sub_confirmation=1',
         html_content=help_string_telegraph,
     )["path"]
 
